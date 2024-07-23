@@ -12,8 +12,8 @@ namespace MP.APICOMPRAS.Domain.Entities
         public int Id { get; private set; }
         public string Name { get; private set; }
         public string Document { get; private set; }
-
         public string Cellphone { get; private set; }
+        public ICollection<Purchase> Purchases { get; set; }
 
         public Person(string document, string name, string cellphone)
         {
@@ -25,7 +25,6 @@ namespace MP.APICOMPRAS.Domain.Entities
             DomainValidationException.When(id < 0, "O Id deve ser maior que zero!");
             Id = id;
         }
-
 
         private void Validation(string document, string name, string cellphone)
         {
