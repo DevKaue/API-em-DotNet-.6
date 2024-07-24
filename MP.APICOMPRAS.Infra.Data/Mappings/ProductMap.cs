@@ -8,36 +8,35 @@ using MP.APICOMPRAS.Domain.Entities;
 
 namespace MP.APICOMPRAS.Infra.Data.Mappings
 {
-    public class PersonMap : IEntityTypeConfiguration<Person>
+    public class ProductMap : IEntityTypeConfiguration<Product>
     {
-        public void Configure(EntityTypeBuilder<Person> builder)
+        public void Configure(EntityTypeBuilder<Product> builder)
         {
             // Chave Primaria e Nome da Tabela
-            builder.ToTable("Pessoa");
+            builder.ToTable("Product");
 
             builder.HasKey(c => c.Id);
 
             builder.Property(c => c.Id)
-                .HasColumnName("IdPessoa")
+                .HasColumnName("IdProduto")
                 .UseIdentityColumn();
 
             //Propriedades
 
-            builder.Property(c => c.Document)
-            .HasColumnName("Documento");
+            builder.Property(c => c.CodErp)
+            .HasColumnName("CodErp");
 
             builder.Property(c => c.Name)
             .HasColumnName("Nome");
 
-            builder.Property(c => c.Cellphone)
-            .HasColumnName("Celular");
+            builder.Property(c => c.Price)
+            .HasColumnName("Preco");
 
             //Chaves Secundarias
 
             builder.HasMany(c => c.Purchases)
-                .WithOne(c => c.Person)
-                .HasForeignKey(c => c.PersonId);
-
+                .WithOne(c => c.Product)
+                .HasForeignKey(c => c.ProductId);
         }
     }
 }

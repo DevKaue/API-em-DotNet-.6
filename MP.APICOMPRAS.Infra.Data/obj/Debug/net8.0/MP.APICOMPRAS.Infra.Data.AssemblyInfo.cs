@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MP.APICOMPRAS.Infra.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56bf4b19b86ac280390c584e05899618c3d0d0c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b49d15d9212711351474e15ae0b876cfa139b98")]
 [assembly: System.Reflection.AssemblyProductAttribute("MP.APICOMPRAS.Infra.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MP.APICOMPRAS.Infra.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
