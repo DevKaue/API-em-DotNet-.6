@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MP.APICOMPRAS.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba377c64cca9d2bbb876df4780efa707294bbe17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+237130561845b63608bacaafc91be3264da6769c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MP.APICOMPRAS.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MP.APICOMPRAS.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

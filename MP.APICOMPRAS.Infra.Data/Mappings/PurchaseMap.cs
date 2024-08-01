@@ -36,6 +36,8 @@ namespace MP.APICOMPRAS.Infra.Data.Mappings
 
             builder.HasOne(c => c.Person)
                 .WithMany(c => c.Purchases);
+
+
             builder.HasOne(c => c.Product)
             .WithMany(c => c.Purchases);
 
