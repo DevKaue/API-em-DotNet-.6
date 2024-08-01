@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/ibiDLT+3yk=",
+  "dgSpecHash": "qthhj6A8iVc=",
   "success": true,
   "projectFilePath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Application\\MP.APICOMPRAS.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaue\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+  ],
   "logs": []
 }
