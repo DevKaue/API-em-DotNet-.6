@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MP.APICOMPRAS.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+237130561845b63608bacaafc91be3264da6769c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4c8d94978b690d394cf05118d63f9480d92ac53")]
 [assembly: System.Reflection.AssemblyProductAttribute("MP.APICOMPRAS.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MP.APICOMPRAS.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
