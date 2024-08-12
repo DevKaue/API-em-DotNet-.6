@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "itnPy/5B/zo=",
+  "dgSpecHash": "RKdyF99RJmI=",
   "success": true,
   "projectFilePath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.IoC\\MP.APICOMPRAS.Infra.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kaue\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Kaue\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Kaue\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Kaue\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
