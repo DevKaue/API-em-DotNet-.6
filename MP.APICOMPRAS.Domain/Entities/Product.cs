@@ -17,6 +17,7 @@ namespace MP.APICOMPRAS.Domain.Entities
         public Product(string name, string codErp, decimal price)
         {
             Validation(name, codErp, price);
+            Purchases = new List<Purchase>();
         }
 
         public Product(int id, string name, string codErp, decimal price)
@@ -24,6 +25,7 @@ namespace MP.APICOMPRAS.Domain.Entities
             DomainValidationException.When(id < 0, "O Id do produto deve ser informado!");
             Id = id;
             Validation(name, codErp, price);
+            Purchases = new List<Purchase>();
         }
 
         private void Validation(string name, string codErp, decimal price)

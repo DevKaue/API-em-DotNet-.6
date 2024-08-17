@@ -18,16 +18,16 @@ namespace MP.APICOMPRAS.Infra.Data.Mappings
             builder.HasKey(c => c.Id);
 
             builder.Property(c => c.Id)
-                .HasColumnName("IdCompra")
+                .HasColumnName("Idcompra")
                 .UseIdentityColumn();
 
             //Propriedades
 
             builder.Property(c => c.PersonId)
-            .HasColumnName("IdPessoa");
+            .HasColumnName("Idpessoa");
 
             builder.Property(c => c.ProductId)
-            .HasColumnName("IdProduto");
+            .HasColumnName("Idproduto");
 
             builder.Property(c => c.Date)
             .HasColumnName("DataCompra");

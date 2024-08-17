@@ -18,12 +18,15 @@ namespace MP.APICOMPRAS.Domain.Entities
         public Person(string document, string name, string cellphone)
         {
             Validation(document, name, cellphone);
+            Purchases = new List<Purchase>();
         }
 
         public Person(int id, string document, string name, string cellphone)
         {
             DomainValidationException.When(id < 0, "O Id deve ser maior que zero!");
             Id = id;
+            Validation(document, name, cellphone);
+            Purchases = new List<Purchase>();
         }
 
         private void Validation(string document, string name, string cellphone)

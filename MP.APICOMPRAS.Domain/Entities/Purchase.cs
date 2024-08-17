@@ -14,27 +14,27 @@ namespace MP.APICOMPRAS.Domain.Entities
         public DateTime Date { get; set; }
         public Person Person { get; set; }
         public Product Product { get; set; }
-        public Purchase(int productId, int personId, DateTime? date)
+        public Purchase(int productId, int personId)
         {
-            Validation(productId, personId, date);
+            Validation(productId, personId);
         }
 
-        public Purchase(int id, int productId, int personId, DateTime? date)
+        public Purchase(int id, int productId, int personId)
         {
             DomainValidationException.When(id < 0, "O Id deve ser informado!");
             Id = id;
-            Validation(productId, personId, date);
+            Validation(productId, personId);
         }
 
-        private void Validation(int productId, int personId, DateTime? date)
+        private void Validation(int productId, int personId)
         {
             DomainValidationException.When(productId < 0, "O Id do produto deve ser informado!");
             DomainValidationException.When(personId < 0, "O Id da pessoa deve ser informado!");
-            DomainValidationException.When(!date.HasValue, "A data da compra deve ser informada!");
+            // DomainValidationException.When(!date.HasValue, "A data da compra deve ser informada!");
 
             PersonId = personId;
             ProductId = productId;
-            Date = date.Value;
+            Date = DateTime.Now;
 
         }
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MP.APICOMPRAS.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb7067bd22b303efef9cc3ade792cdd43c0171d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5e071daaa017fc87ed5988728e7c2b45fbb4df7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MP.APICOMPRAS.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MP.APICOMPRAS.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

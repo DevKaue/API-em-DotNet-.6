@@ -1,0 +1,6 @@
+D:\Estudos\#C-.NET\API6_Compras\API-em-DotNet-.6\MP.APICOMPRAS.Infra.IoC\obj\Debug\net8.0\MP.APICOMPRAS.Infra.IoC.csproj.AssemblyReference.cache
+D:\Estudos\#C-.NET\API6_Compras\API-em-DotNet-.6\MP.APICOMPRAS.Infra.IoC\obj\Debug\net8.0\MP.APICOMPRAS.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\#C-.NET\API6_Compras\API-em-DotNet-.6\MP.APICOMPRAS.Infra.IoC\obj\Debug\net8.0\MP.APICOMPRAS.Infra.IoC.AssemblyInfoInputs.cache
+D:\Estudos\#C-.NET\API6_Compras\API-em-DotNet-.6\MP.APICOMPRAS.Infra.IoC\obj\Debug\net8.0\MP.APICOMPRAS.Infra.IoC.AssemblyInfo.cs
+D:\Estudos\#C-.NET\API6_Compras\API-em-DotNet-.6\MP.APICOMPRAS.Infra.IoC\obj\Debug\net8.0\MP.APICOMPRAS.Infra.IoC.csproj.CoreCompileInputs.cache
+D:\Estudos\#C-.NET\API6_Compras\API-em-DotNet-.6\MP.APICOMPRAS.Infra.IoC\obj\Debug\net8.0\MP.APICOMPRAS.Infra.IoC.sourcelink.json

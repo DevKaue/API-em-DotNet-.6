@@ -18,7 +18,7 @@ namespace MP.APICOMPRAS.Infra.Data.Mappings
             builder.HasKey(c => c.Id);
 
             builder.Property(c => c.Id)
-                .HasColumnName("IdPessoa")
+                .HasColumnName("Idpessoa")
                 .UseIdentityColumn();
 
             //Propriedades
