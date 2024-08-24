@@ -13,24 +13,24 @@ namespace MP.APICOMPRAS.Infra.Data.Mappings
         public void Configure(EntityTypeBuilder<Purchase> builder)
         {
             // Chave Primaria e Nome da Tabela
-            builder.ToTable("Compra");
+            builder.ToTable("compra");
 
             builder.HasKey(c => c.Id);
 
             builder.Property(c => c.Id)
-                .HasColumnName("Idcompra")
+                .HasColumnName("idcompra")
                 .UseIdentityColumn();
 
             //Propriedades
 
             builder.Property(c => c.PersonId)
-            .HasColumnName("Idpessoa");
+            .HasColumnName("idpessoa");
 
             builder.Property(c => c.ProductId)
-            .HasColumnName("Idproduto");
+            .HasColumnName("idproduto");
 
             builder.Property(c => c.Date)
-            .HasColumnName("DataCompra");
+            .HasColumnName("dataCompra");
 
             //Chaves Secundarias
 

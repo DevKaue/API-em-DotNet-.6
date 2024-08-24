@@ -16,18 +16,23 @@ namespace MP.APICOMPRAS.Infra.IoC
 {
     public static class DependencyInjection
     {
+        // Adiciona a infraestrutura necessária, como banco de dados e repositórios
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<APICOMPRASDbContext>(options =>
-                        options.UseSqlServer(configuration.GetConnectionString("")));
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
             services.AddScoped<IPersonRepository, PersonRepository>();
+
             return services;
         }
 
+        // Adiciona serviços da aplicação, como AutoMapper e serviços de negócio
         public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddAutoMapper(typeof(DomainToDtoMapping));
+            services.AddAutoMapper(typeof(DomainToDtoMapping));  // Certifique-se de que DomainToDtoMapping seja uma classe válida
             services.AddScoped<IPersonService, PersonService>();
+
             return services;
         }
     }

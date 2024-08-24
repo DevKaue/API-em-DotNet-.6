@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DcOUnzfS9I0=",
+  "dgSpecHash": "bdT4sJSwG/I=",
   "success": true,
-  "projectFilePath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.IoC\\MP.APICOMPRAS.Infra.IoC.csproj",
+  "projectFilePath": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.IoC\\MP.APICOMPRAS.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaue\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Kaue\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -13,24 +13,24 @@ namespace MP.APICOMPRAS.Infra.Data.Mappings
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             // Chave Primaria e Nome da Tabela
-            builder.ToTable("Product");
+            builder.ToTable("product");
 
             builder.HasKey(c => c.Id);
 
             builder.Property(c => c.Id)
-                .HasColumnName("Idproduto")
+                .HasColumnName("idproduto")
                 .UseIdentityColumn();
 
             //Propriedades
 
             builder.Property(c => c.CodErp)
-            .HasColumnName("CodErp");
+            .HasColumnName("coderp");
 
             builder.Property(c => c.Name)
-            .HasColumnName("Nome");
+            .HasColumnName("nome");
 
             builder.Property(c => c.Price)
-            .HasColumnName("Preco");
+            .HasColumnName("preco");
 
             //Chaves Secundarias
 

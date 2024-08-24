@@ -42,7 +42,7 @@ namespace MP.APICOMPRAS.Infra.Data.Repositories
             return await _db.People.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public async Task<ICollection<Person>> GetPeopleAsync(int id)
+        public async Task<ICollection<Person>> GetPeopleAsync()
         {
             return await _db.People.ToListAsync();
         }

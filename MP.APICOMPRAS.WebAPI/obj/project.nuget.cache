@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5By//sX3Wz4=",
+  "dgSpecHash": "FKzChQv4EqA=",
   "success": true,
-  "projectFilePath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.WebAPI\\MP.APICOMPRAS.WebAPI.csproj",
+  "projectFilePath": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.WebAPI\\MP.APICOMPRAS.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaue\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Kaue\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

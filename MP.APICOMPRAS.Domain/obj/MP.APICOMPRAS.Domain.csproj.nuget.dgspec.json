@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj": {}
+    "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj": {
+    "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj",
+        "projectUniqueName": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj",
         "projectName": "MP.APICOMPRAS.Domain",
-        "projectPath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj",
+        "projectPath": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj",
         "packagesPath": "C:\\Users\\Kaue\\.nuget\\packages\\",
-        "outputPath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\obj\\",
+        "outputPath": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kaue\\AppData\\Roaming\\NuGet\\NuGet.Config"

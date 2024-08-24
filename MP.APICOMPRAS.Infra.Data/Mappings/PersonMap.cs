@@ -13,24 +13,24 @@ namespace MP.APICOMPRAS.Infra.Data.Mappings
         public void Configure(EntityTypeBuilder<Person> builder)
         {
             // Chave Primaria e Nome da Tabela
-            builder.ToTable("Pessoa");
+            builder.ToTable("pessoa");
 
             builder.HasKey(c => c.Id);
 
             builder.Property(c => c.Id)
-                .HasColumnName("Idpessoa")
+                .HasColumnName("idpessoa")
                 .UseIdentityColumn();
 
             //Propriedades
 
             builder.Property(c => c.Document)
-            .HasColumnName("Documento");
+            .HasColumnName("documento");
 
             builder.Property(c => c.Name)
-            .HasColumnName("Nome");
+            .HasColumnName("nome");
 
             builder.Property(c => c.Cellphone)
-            .HasColumnName("Celular");
+            .HasColumnName("celular");
 
             //Chaves Secundarias
 

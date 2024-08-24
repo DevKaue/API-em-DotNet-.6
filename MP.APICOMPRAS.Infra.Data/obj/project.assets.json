@@ -2049,8 +2049,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj": {
-              "projectPath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj"
+            "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj": {
+              "projectPath": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj"
             }
           }
         }

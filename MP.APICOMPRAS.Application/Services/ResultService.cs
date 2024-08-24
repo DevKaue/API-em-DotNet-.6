@@ -10,7 +10,7 @@ namespace MP.APICOMPRAS.Application.Services
     {
         public bool IsSuccess { get; set; }
         public string Message { get; set; } = string.Empty;
-        public ICollection<ErrorValidation> Erros { get; set; }
+        public ICollection<ErrorValidation> Errors { get; set; }
 
         public static ResultService RequestError(string message, ValidationResult validationResult)
         {
@@ -18,7 +18,7 @@ namespace MP.APICOMPRAS.Application.Services
             {
                 IsSuccess = false,
                 Message = message,
-                Erros = validationResult.Errors.Select(e => new ErrorValidation { Field = e.PropertyName, Message = e.ErrorMessage }).ToList()
+                Errors = validationResult.Errors.Select(e => new ErrorValidation { Field = e.PropertyName, Message = e.ErrorMessage }).ToList()
             };
         }
 
@@ -28,15 +28,15 @@ namespace MP.APICOMPRAS.Application.Services
             {
                 IsSuccess = false,
                 Message = message,
-                Erros = validationResult.Errors.Select(e => new ErrorValidation { Field = e.PropertyName, Message = e.ErrorMessage }).ToList()
+                Errors = validationResult.Errors.Select(e => new ErrorValidation { Field = e.PropertyName, Message = e.ErrorMessage }).ToList()
             };
         }
 
         public static ResultService Fail(string message) => new ResultService { IsSuccess = false, Message = message };
         public static ResultService<T> Fail<T>(string message) => new ResultService<T> { IsSuccess = false, Message = message };
 
-        public static ResultService Ok(string message) => new ResultService { IsSuccess = false, Message = message };
-        public static ResultService<T> Ok<T>(T data) => new ResultService<T> { IsSuccess = false, Data = data };
+        public static ResultService Ok(string message) => new ResultService { IsSuccess = true, Message = message };
+        public static ResultService<T> Ok<T>(T data) => new ResultService<T> { IsSuccess = true, Data = data };
 
     }
 

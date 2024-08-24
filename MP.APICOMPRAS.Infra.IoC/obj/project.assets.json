@@ -2057,7 +2057,8 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "MP.APICOMPRAS.Application >= 1.0.0",
       "MP.APICOMPRAS.Domain >= 1.0.0",
-      "MP.APICOMPRAS.Infra.Data >= 1.0.0"
+      "MP.APICOMPRAS.Infra.Data >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 6.0.1"
     ]
   },
   "packageFolders": {
@@ -2066,11 +2067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.IoC\\MP.APICOMPRAS.Infra.IoC.csproj",
+      "projectUniqueName": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.IoC\\MP.APICOMPRAS.Infra.IoC.csproj",
       "projectName": "MP.APICOMPRAS.Infra.IoC",
-      "projectPath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.IoC\\MP.APICOMPRAS.Infra.IoC.csproj",
+      "projectPath": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.IoC\\MP.APICOMPRAS.Infra.IoC.csproj",
       "packagesPath": "C:\\Users\\Kaue\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.IoC\\obj\\",
+      "outputPath": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kaue\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2088,11 +2089,11 @@
             "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Application\\MP.APICOMPRAS.Application.csproj": {
               "projectPath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Application\\MP.APICOMPRAS.Application.csproj"
             },
-            "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj": {
-              "projectPath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj"
+            "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj": {
+              "projectPath": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Domain\\MP.APICOMPRAS.Domain.csproj"
             },
-            "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.Data\\MP.APICOMPRAS.Infra.Data.csproj": {
-              "projectPath": "D:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.Data\\MP.APICOMPRAS.Infra.Data.csproj"
+            "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.Data\\MP.APICOMPRAS.Infra.Data.csproj": {
+              "projectPath": "d:\\Estudos\\#C-.NET\\API6_Compras\\API-em-DotNet-.6\\MP.APICOMPRAS.Infra.Data\\MP.APICOMPRAS.Infra.Data.csproj"
             }
           }
         }
@@ -2115,6 +2116,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           }
         },
         "imports": [
